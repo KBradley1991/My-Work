@@ -1,0 +1,45 @@
+git setup global configuration
+-------------------------------
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+help link - https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+help link - https://help.github.com/articles/setting-your-username-in-git/
+
+**********************************************************
+git setup and cache credentials
+-------------------------------
+for windows
+git config --global credential.helper wincred
+
+for linux
+git config credential.helper store 
+
+help link - https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git
+help link - https://git-scm.com/docs/git-credential-store
+
+**********************************************************
+git initialization
+------------------
+git init
+git add .
+git commit -m "First commit"
+git remote add origin "remote repository URL"    /*comment-  "Sets the new remote" */
+git remote -v         /*comment -Verifies the new remote URL  */
+git push origin master /*comment - Pushes the changes in your local repository up to the remote repository you specified as the origin */
+
+
+help link - https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
+help linl - http://kbroman.org/github_tutorial/pages/init.html      
+
+**********************************************************
+git add and commit work flow
+----------------------------
+git add "Your_file.txt"
+git commit -m "added a new feature in a file"
+git push heroku master
+
+help link - https://stackoverflow.com/questions/19877818/git-commit-m-vs-git-commit-am?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+*********************************************************
+
