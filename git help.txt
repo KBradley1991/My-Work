@@ -30,7 +30,11 @@ git push origin master /*comment - Pushes the changes in your local repository u
 
 
 help link - https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
-help linl - http://kbroman.org/github_tutorial/pages/init.html      
+help linl - http://kbroman.org/github_tutorial/pages/init.html     
+
+$ git remote -v (git Url)
+origin  https://github.com/KBradley1991/My-Work.git (fetch)
+origin  https://github.com/KBradley1991/My-Work.git (push) 
 
 **********************************************************
 git add and commit work flow
