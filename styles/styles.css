@@ -8,16 +8,6 @@ body{
   margin: 0;
 }
 
-.header_Text h3{
-  font-family: Adobe-Garamond-Pro;
-  font-weight: 400;
-  font-size: normal;
-  line-height: 1.4em;
-  letter-spacing: .3em;
-  text-transform:none;
-  font-size: 18px;
-}
-
 .header ul{
     list-style-type: none;
     margin: 0px;
@@ -62,4 +52,26 @@ body{
     color: #fff;
     line-height: 1.2em;
     font-weight: 600;
+  }
+
+  .header_Text{
+    margin-left: 280px;
+    margin-top: 164px;
+    margin-right: 891px;
+    margin-bottom: 225px;
+    text-align: center;
+  }
+
+  .header_Text h3{
+    font-family: Adobe-Garamond-Pro;
+    font-weight: 400;
+    font-size: normal;
+    line-height: 1.4em;
+    letter-spacing: .3em;
+    text-transform:none;
+    font-size: 18px;
+  }
+
+  .header_Text h1{
+
   }
