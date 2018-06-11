@@ -53,4 +53,12 @@ git remote show origin
 help link - https://stackoverflow.com/questions/41406903/remote-git-branches-not-visible?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 
 *********************************************************
+git how to setup gitignore
+--------------------------
+git config --global core.excludesfile~/.gitignore_global
 
+/* comment - creates gitignore file, have to open with nano editor and and put the file names of all the files that want to ignore*/
+
+help link - https://help.github.com/articles/ignoring-files/
+
+**********************************************************
