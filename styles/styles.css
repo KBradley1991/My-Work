@@ -44,8 +44,14 @@ body{
     color: white;
     background-image: url("images/RB-HK-1-edited.png");
     background-repeat: no-repeat;
-    background-size: 1297px 679px;
-    background-position: 250px 0;
+    background-size: 1617px 850px;
+    background-position: 0px 0;
+    image-rendering: -webkit-optimize-contrast;
+  }
+
+  .header a.active{
+    background-color:#DECE7F; /* Add a green color to the "active/current" link */
+
   }
   #header_logo{
     font-size: 20px;
