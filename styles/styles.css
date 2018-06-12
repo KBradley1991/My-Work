@@ -61,11 +61,12 @@ body{
   }
 
   .header_Text{
-    margin-left: 280px;
+    margin-left: 220px;
     margin-top: 164px;
-    margin-right: 891px;
+    margin-right: 780px;
     margin-bottom: 225px;
     text-align: center;
+
   }
 
   .header_Text h3{
@@ -76,8 +77,17 @@ body{
     letter-spacing: .3em;
     text-transform:none;
     font-size: 18px;
+    overflow: visible;
   }
 
   .header_Text h1{
-
+    color: #e3d382;
+    font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.1875em;
+    font-weight: bold;
   }
