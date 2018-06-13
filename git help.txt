@@ -76,3 +76,8 @@ git checkout newbranch
 help link - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 **********************************************************
+fix merge conflicts
+-------------------
+
+help link - https://stackoverflow.com/questions/1628088/reset-local-repository-branch-to-be-just-like-remote-repository-head?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+help link - https://git-scm.com/docs/git-pull
