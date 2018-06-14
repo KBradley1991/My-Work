@@ -8,6 +8,8 @@ body{
   margin: 0;
 }
 
+/*Header section*/
+/*____________________________________________________*/
 .header ul{
     list-style-type: none;
     margin: 0px;
@@ -50,7 +52,7 @@ body{
   }
 
   .header a.active{
-    background-color:#DECE7F; /* Add a green color to the "active/current" link */
+    color:#DECE7F; /* Add a green color to the "active/current" link */
 
   }
   #header_logo{
@@ -90,4 +92,21 @@ body{
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1875em;
     font-weight: bold;
+  }
+  /*follow_section*/
+  /*____________________________________________________*/
+  .follow{
+    background-color: #FFFFFF;
+    text-rendering:optimizeLegibility;
+  }
+
+  .followTopBanner h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 43px;
+    line-height: 1.1em;
+    letter-spacing: .2em;
+    color: #201713;
   }
