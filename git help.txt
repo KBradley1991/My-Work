@@ -13,7 +13,7 @@ for windows
 git config --global credential.helper wincred
 
 for linux
-git config credential.helper store 
+git config credential.helper store
 
 help link - https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git
 help link - https://git-scm.com/docs/git-credential-store
@@ -29,12 +29,12 @@ git remote -v         /*comment -Verifies the new remote URL  */
 git push origin master /*comment - Pushes the changes in your local repository up to the remote repository you specified as the origin */
 
 
-help link - https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
-help linl - http://kbroman.org/github_tutorial/pages/init.html     
+help link - https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+help linl - http://kbroman.org/github_tutorial/pages/init.html
 
 $ git remote -v (git Url)
 origin  https://github.com/KBradley1991/My-Work.git (fetch)
-origin  https://github.com/KBradley1991/My-Work.git (push) 
+origin  https://github.com/KBradley1991/My-Work.git (push)
 
 **********************************************************
 git add and commit work flow
@@ -81,3 +81,13 @@ fix merge conflicts
 
 help link - https://stackoverflow.com/questions/1628088/reset-local-repository-branch-to-be-just-like-remote-repository-head?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 help link - https://git-scm.com/docs/git-pull
+
+************************************************************
+git how to remove unstaged files and go back to original State
+
+git reset HEAD \*
+git checkout --.
+
+help link - https://stackoverflow.com/questions/11956710/git-recover-deleted-file-where-no-commit-was-made-after-the-delete
+
+*************************************************************
