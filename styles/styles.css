@@ -84,15 +84,16 @@ body{
 
   .header_Text h1{
     color: #e3d382;
-    font-size: 64px;
+    font-size: 74px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    line-height: 1.1em;
+    line-height: .5em;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1875em;
-    font-weight: bold;
+    font-weight: bolder;
   }
+
   /*follow_section*/
   /*____________________________________________________*/
   .follow{
@@ -109,4 +110,99 @@ body{
     line-height: 1.1em;
     letter-spacing: .2em;
     color: #201713;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 570px;
+  }
+
+  .followBannerLogo img{
+    width: 40px;
+    height: 35px;
+    align-items: right;
+  }
+  .followBannerLogo{
+    margin-top: 30px;
+    margin-left: 380px;
+  }
+
+  .followTopBanner {
+    display: inline-grid;
+      grid-template-columns: auto auto auto;
+  }
+
+  /*about_section*/
+  /*____________________________________________________*/
+  .about{
+    background-color: #F5F5F5;
+    text-rendering:optimizeLegibility;
+  }
+
+  .aboutTopBanner h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 43px;
+    line-height: 1.1em;
+    letter-spacing: .2em;
+    color: #201713;
+    margin-right: 175px;
+  }
+
+  /*about_section*/
+  /*____________________________________________________*/
+  .gallery{
+    background-color: #FFFFFF;
+    text-rendering:optimizeLegibility;
+  }
+
+  .galleryTopBanner h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 43px;
+    line-height: 1.1em;
+    letter-spacing: .2em;
+    color: #201713;
+    margin-right: 115px;
+  }
+
+  /*sponsor_section*/
+  /*____________________________________________________*/
+  .sponsor{
+    background-color: #FFFFFF;
+    text-rendering:optimizeLegibility;
+  }
+
+  .sponsorTopBanner h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 43px;
+    line-height: 1.1em;
+    letter-spacing: .2em;
+    color: #201713;
+    margin-right: 60px;
+  }
+
+  /*sponsor_section*/
+  /*____________________________________________________*/
+  .contact{
+    background-color: #F5F5F5;
+    text-rendering:optimizeLegibility;
+  }
+
+  .contactTopBanner h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 43px;
+    line-height: 1.1em;
+    letter-spacing: .2em;
+    color: #201713;
+    margin-right: 20px;
   }
