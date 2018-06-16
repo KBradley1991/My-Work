@@ -122,7 +122,7 @@ body{
   }
 
   .followBannerLogo img{
-    width: 40px;
+    width: 45px;
     height: 35px;
     align-items: right;
   }
@@ -139,7 +139,25 @@ body{
     margin-left: 380px;
   }
 
+.followTopImage_wrapper{
+    display: inline-grid;
+    grid-template-columns: 1f;
+}
 
+.followImages{
+  margin-left: 361px;
+
+}
+.followImages img{
+  width: 184px;
+  height: 189px;
+  padding: 5px;
+
+}
+
+.followImages a{
+  text-decoration: none;
+}
   /*about_section*/
   /*____________________________________________________*/
   .about{
