@@ -101,7 +101,12 @@ body{
     text-rendering:optimizeLegibility;
   }
 
-  .followTopBanner h1{
+  .followTopBanner_Wrapper {
+    display: inline-grid;
+      grid-template-columns: auto auto auto;
+  }
+
+  .followTopBanner_Wrapper h1{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -121,15 +126,19 @@ body{
     height: 35px;
     align-items: right;
   }
+
+  .followBannerLogo a:hover{
+    color: #9A9A9A;
+  }
+  .followBannerLogo a{
+    color: white;
+    text-decoration: none;
+  }
   .followBannerLogo{
     margin-top: 30px;
     margin-left: 380px;
   }
 
-  .followTopBanner {
-    display: inline-grid;
-      grid-template-columns: auto auto auto;
-  }
 
   /*about_section*/
   /*____________________________________________________*/
