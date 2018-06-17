@@ -124,7 +124,7 @@ body{
   .followBannerLogo img{
     width: 45px;
     height: 35px;
-    align-items: right;
+
   }
 
   .followBannerLogo a:hover{
@@ -145,7 +145,7 @@ body{
 }
 
 .followImages{
-  margin-left: 361px;
+  margin-left: 340px;
 
 }
 .followImages img{
@@ -202,8 +202,20 @@ body{
     background-color: #FFFFFF;
     text-rendering:optimizeLegibility;
   }
+  .sponsor_wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 340px;
+    margin-right: 139px;
+  }
 
-  .sponsorTopBanner h1{
+  .sponsorTopBannerHeading{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+
+  }
+  .sponsorTopBannerHeading h1{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -212,10 +224,21 @@ body{
     line-height: 1.1em;
     letter-spacing: .2em;
     color: #201713;
-    margin-right: 60px;
+    padding-right: 265px;
   }
 
-  /*sponsor_section*/
+.sponsorImages{
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+
+}
+
+.sponsorImages a{
+  text-decoration: none;
+  padding: 20px;
+}
+  /*contact_section*/
   /*____________________________________________________*/
   .contact{
     background-color: #F5F5F5;
