@@ -184,6 +184,18 @@ body{
     text-rendering:optimizeLegibility;
   }
 
+  .galleryWrapper{
+    display: grid;
+    grid-template-columns: auto;
+   }
+  .galleryTopBanner {
+    grid-column: 1;
+
+  }
+  .galleryImages {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
   .galleryTopBanner h1{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -196,6 +208,17 @@ body{
     margin-right: 115px;
   }
 
+  .galleryImages img{
+    /*422px 445px*/
+    width: 379px;
+    height: 508px;
+    display: block;
+    float: left;
+    object-fit: fill;
+  }
+  .galleryImages a{
+    text-decoration: none;
+  }
   /*sponsor_section*/
   /*____________________________________________________*/
   .sponsor{
