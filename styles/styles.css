@@ -93,7 +93,38 @@ body{
     letter-spacing: 0.1875em;
     font-weight: bolder;
   }
+/*Navigation bar test*/
+#navbar {
+    background-color: #000006; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    align: center;
+}
 
+/* Style the navbar links */
+#navbar a {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #DECE7F;
+}
+
+#navbar a.active{
+  color:#DECE7F; /* Add a green color to the "active/current" link */
+
+}
+
+#navbarFirstElement {
+  margin-left: 123px;
+}
   /*follow_section*/
   /*____________________________________________________*/
   .follow{
@@ -210,7 +241,7 @@ body{
 
   .galleryImages img{
     /*422px 445px*/
-    width: 379px;
+    width: 25%;
     height: 508px;
     display: block;
     float: left;
@@ -228,8 +259,8 @@ body{
   .sponsor_wrapper{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-left: 340px;
-    margin-right: 139px;
+    margin-left: 15%;
+    margin-right: 10%;
   }
 
   .sponsorTopBannerHeading{
@@ -255,6 +286,9 @@ body{
   grid-column-end: 4;
 
 
+}
+.sponsorImages img{
+  width: 25%;
 }
 
 .sponsorImages a{
