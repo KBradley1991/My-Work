@@ -3,6 +3,11 @@
     src: url(fonts/Adobe-Garamond-Pro.ttf);
 }
 
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway-Regular.ttf);
+}
+
 body{
   height: 100%;
   margin: 0;
@@ -197,7 +202,9 @@ body{
   }
   .about_wrapper{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20%;
+    margin-right: 12%;
   }
   .aboutTopBanner{
     grid-column-start: 1;
@@ -208,6 +215,8 @@ body{
     grid-column-start: 1;
     grid-column-end: 3;
     border: 5px solid rgba(0, 0, 0, 0.8);
+    padding-left: 10px;
+
   }
   .about_sub{
     grid-column-start: 3;
@@ -226,7 +235,43 @@ body{
     margin-right: 175px;
   }
 
-  /*about_section*/
+  .about h2{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+.about p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: .4px;
+  color: rgba(0,0,0,.5);
+  line-height: 1.6em;
+  padding-top: 1%;
+}
+
+.about ul{
+  list-style-type: none;
+}
+
+.about li{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: .4px;
+  line-height: 1.6em;
+  color: rgba(0,0,0,.5);
+  padding: 5%;
+  padding-left: 17%;
+}
+  /*gallery_section*/
   /*____________________________________________________*/
   .gallery{
     background-color: #FFFFFF;
