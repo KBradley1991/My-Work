@@ -77,7 +77,7 @@ body{
   }
 
   .header_Text h3{
-    font-family: Adobe-Garamond-Pro;
+    font-family: 'Adobe-Garamond-Pro';
     font-weight: 400;
     font-size: normal;
     line-height: 1.4em;
@@ -370,6 +370,20 @@ body{
     margin-left: 20%;
     margin-right: 12%;
   }
+  .topContact{
+    padding-top: 53px;
+    padding-bottom: 23px;
+  }
+  .contact h3{
+    color: rgba(28,28,28,.8);
+    font-style: 'adobe-garamond-pro';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.4em;
+    letter-spacing: .3em;
+    text-transform: none;
+  }
 
   .contactTopBanner h1{
     text-align: center;
@@ -384,17 +398,21 @@ body{
   }
   .formWrapper input[type=text]{
     width: 100%;
-    height: 37px;
     resize: none;
     padding: 5px;
+    height: 40px;
     display: block;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    background: #fafafa;
 
   }
   .formWrapper{
     display: block;
     width: 50%;
-
   }
+
   .fName{
     float: left;
     width: 45%;
@@ -405,6 +423,58 @@ body{
     width: 45%;
     display: inline-block;
   }
+  .formWrapper label{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: .4px;
+    color: rgba(0,0,0,.5);
+  }
+  .subBtn{
+    padding-top: 18px;
+  }
+  #submitBtn{
+    background-color: #1F1F1F;
+    color: #DADADA;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: .5px;
+    font-size: 14px;
+    line-height: 1em;
+    outline: none;
+    padding: 1em 2.5em;
+    border-radius: 3px;
+    width: 119.06px;
+    height: 42px;
+    text-align: center;
+    border: 1px solid #1F1F1F;
+    border-radius: 18px;
+  }
+  #submitBtn:hover{
+    background-color: #505050;
+  }
+  #fNameLabel{
+    font-size: 10px;
+  }
+  #lNameLabel{
+    font-size: 10px;
+  }
+  #message{
+    height:89px;
+    width: 100%;
+    resize: none;
+    padding: 5px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    padding: 1px;
+  }
+
   /*footer section1 */
   #footer_section{
     background-color: #1F1F1F;

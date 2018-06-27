@@ -163,26 +163,26 @@
     <div class="galleryTopBanner"> <h1>gallery</h1>
     </div>
     <div class="galleryImages">
-      <a href="styles/images/g1.jpg">
-        <img src="styles/images/g1.jpg" alt="deloitte logo">
+      <a href="styles/images/g1.jpg" onclick='this.src="styles/images/g1.jpg"'>
+        <img src="styles/images/g1.jpg" alt="deloitte logo"/>
       </a>
       <a href="styles/images/g2.jpg">
-        <img src="styles/images/g2.jpg" alt="nike logo">
+        <img src="styles/images/g2.jpg" alt="nike logo"/>
       </a>
       <a href="styles/images/g3.jpg">
-        <img src="styles/images/g3f.jpg" alt="baur logo">
+        <img src="styles/images/g3f.jpg" alt="baur logo"/>
       </a>
       <a href="styles/images/g4.jpg">
-        <img src="styles/images/g4f.jpg" alt="nulo logo">
+        <img src="styles/images/g4f.jpg" alt="nulo logo"/>
       </a>
       <a href="styles/images/g5.jpg" target="_blank">
-        <img src="styles/images/g5f.jpg" alt="redbull logo">
+        <img src="styles/images/g5f.jpg" alt="redbull logo"/>
       </a>
       <a href="styles/images/g6.jpg" target="_blank">
-        <img src="styles/images/g6f.jpg" alt="visa logo">
+        <img src="styles/images/g6f.jpg" alt="visa logo"/>
       </a>
       <a href="styles/images/g7.jpg" target="_blank">
-        <img src="styles/images/g7f.jpg" alt="comcast logo">
+        <img src="styles/images/g7f.jpg" alt="comcast logo"/>
       </a>
       <a href="styles/images/g8.jpg" target="_blank">
         <img src="styles/images/g8f.jpg" alt="gopro logo">
@@ -277,41 +277,66 @@
        Los Angeles, CA 90024
     </p>
   </div>
-  <div>
+  <div class="topContact">
     <h3>FOR OTHER INQUIRIES, PLEASE COMPLETE THE FORM:</h3>
     <div class="formWrapper">
-      <form>
+      <form id="homeForm" name="contactForm" onsubmit="return validateForm()">
         <label>Name <span style="font-size:12px;">*</span></label><br>
         <div>
           <div class="fName">
-            <input type="text" name="firstName">
-            <label>First Name</label><br>
+            <input type="text" id="firstName" name="fiName">
+            <label for="firstName" id="fNameLabel">First Name</label><br>
           </div>
           <div class="lName">
-            <input type="text" name="lastName">
-            <label>Last Name</label><br>
+            <input type="text" id="lastName" name="laName">
+            <label for="lastName" id="lNameLabel">Last Name</label><br>
           </div>
         </div>
         <div>
           <br><br>
-          <label><br><br>Email address</label>
+          <label for="emailAddress"><br><br>Email address</label>
           <br>
-          <input type="text" name="emailAddress"><br>
+          <input type="text" id="eAddress" name="emailAddress"><br>
         </div>
         <div>
-          <label>Subject</label>
+          <label for="formSubject">Subject</label>
           <br>
-          <input type="text" name="subject"><br>
-        </div>
-        <div>
-          <label>Message</label>
-          <br>
-          <input type="text" name="message"><br>
-        </div>
-        <div>
-          <input type="submit" value="Submit"><br>
+          <input type="text" id="formSubject" name="subject"><br>
         </div>
       </form>
+      <div>
+        <label for="message">Message</label>
+        <br>
+        <textarea name="message" id="message" form="homeForm">
+        </textarea>
+      </div>
+      <div class="subBtn">
+        <input type="submit" value="Submit" form="homeForm" id="submitBtn"><br>
+        <script>
+            function validateForm(){
+              var vFName = document.forms["contactForm"]["fiName"].value;
+              var vLName = document.forms["contactForm"]["laName"].value;
+              var vEmail = document.forms["contactForm"]["emailAddress"].value;
+              var vSubject = document.forms["contactForm"]["subject"].value;
+              if (vFName ==""){
+                alert("fill your first name");
+                return false;
+              }
+                else if (vLName =="") {
+                  alert("Fill your last name");
+                  return false;
+                }
+                else if (vEmail =="") {
+                  alert("Fill your email");
+                  return false;
+                }
+                else if (vSubject==""){
+                  alert("Fill subject name");
+                  return false;
+                }
+            }
+        </script>
+      </div>
       <br>
     </div>
   </div>
