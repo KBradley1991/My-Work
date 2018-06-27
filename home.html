@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="styles/images/favicon.ico">
     <link rel="stylesheet" href="styles/styles.css">
-
+    <script src="home.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Home</title>
   </head>
@@ -312,30 +312,6 @@
       </div>
       <div class="subBtn">
         <input type="submit" value="Submit" form="homeForm" id="submitBtn"><br>
-        <script>
-            function validateForm(){
-              var vFName = document.forms["contactForm"]["fiName"].value;
-              var vLName = document.forms["contactForm"]["laName"].value;
-              var vEmail = document.forms["contactForm"]["emailAddress"].value;
-              var vSubject = document.forms["contactForm"]["subject"].value;
-              if (vFName ==""){
-                alert("fill your first name");
-                return false;
-              }
-                else if (vLName =="") {
-                  alert("Fill your last name");
-                  return false;
-                }
-                else if (vEmail =="") {
-                  alert("Fill your email");
-                  return false;
-                }
-                else if (vSubject==""){
-                  alert("Fill subject name");
-                  return false;
-                }
-            }
-        </script>
       </div>
       <br>
     </div>

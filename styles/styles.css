@@ -496,4 +496,11 @@ body{
   .footer_section2 p{
     color: #6F6F6F;
     text-align: center;
+    font-family: 'adobe-garamond-pro';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 4px;
+    line-height: 1.6em;
+    padding-top: 1%;
   }
